@@ -65,7 +65,7 @@ public class confirmPasswordPage extends TestBase{
 		return data;
 	}
       
-	public static String Register_Data_File="C:\\Users\\Vikesh\\Test_projects\\TuduApplication\\TestData\\password.xlsx";
+	public static String Register_Data_File="C:\\Users\\Vikesh\\git\\NewTUDU\\TuduApplication\\TestData\\password.xlsx";
 		
 	
 	public static Object[][] getRegisterData(String SheetName) {

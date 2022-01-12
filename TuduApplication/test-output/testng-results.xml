@@ -2,27 +2,27 @@
 <testng-results skipped="0" failed="2" ignored="25" total="31" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="161363" started-at="2022-01-10T13:48:26 IST" finished-at="2022-01-10T13:51:07 IST">
+  <suite name="Suite" duration-ms="157333" started-at="2022-01-12T13:26:55 IST" finished-at="2022-01-12T13:29:33 IST">
     <groups>
       <group name="vikesh2">
-        <method signature="createProjectPageTest.NewProject(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.testcases.createProjectPageTest@2e52fb3e]" name="NewProject" class="com.testcases.createProjectPageTest"/>
-        <method signature="homePageTest.homeSearchProject(java.lang.String)[pri:3, instance:com.testcases.homePageTest@16fe9c29]" name="homeSearchProject" class="com.testcases.homePageTest"/>
-        <method signature="homePageTest.homeUserProfileLogout()[pri:2, instance:com.testcases.homePageTest@16fe9c29]" name="homeUserProfileLogout" class="com.testcases.homePageTest"/>
-        <method signature="loginPageTest.Login_TC_001()[pri:1, instance:com.testcases.loginPageTest@75f2099]" name="Login_TC_001" class="com.testcases.loginPageTest"/>
-        <method signature="signUpTest.signUpDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testcases.signUpTest@715fb77]" name="signUpDetails" class="com.testcases.signUpTest"/>
+        <method signature="createProjectPageTest.NewProject(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.testcases.createProjectPageTest@68e62ca4]" name="NewProject" class="com.testcases.createProjectPageTest"/>
+        <method signature="homePageTest.homeSearchProject(java.lang.String)[pri:3, instance:com.testcases.homePageTest@5328a9c1]" name="homeSearchProject" class="com.testcases.homePageTest"/>
+        <method signature="homePageTest.homeUserProfileLogout()[pri:2, instance:com.testcases.homePageTest@5328a9c1]" name="homeUserProfileLogout" class="com.testcases.homePageTest"/>
+        <method signature="loginPageTest.Login_TC_001()[pri:1, instance:com.testcases.loginPageTest@6579c3d9]" name="Login_TC_001" class="com.testcases.loginPageTest"/>
+        <method signature="signUpTest.signUpDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testcases.signUpTest@682c1e93]" name="signUpDetails" class="com.testcases.signUpTest"/>
       </group> <!-- vikesh2 -->
     </groups>
-    <test name="Test" duration-ms="161363" started-at="2022-01-10T13:48:26 IST" finished-at="2022-01-10T13:51:07 IST">
+    <test name="Test" duration-ms="157333" started-at="2022-01-12T13:26:55 IST" finished-at="2022-01-12T13:29:33 IST">
       <class name="com.testcases.loginPageTest">
-        <test-method status="PASS" signature="loadConfig()[pri:0, instance:com.testcases.loginPageTest@75f2099]" name="loadConfig" is-config="true" duration-ms="771" started-at="2022-01-10T13:48:25 IST" finished-at="2022-01-10T13:48:26 IST">
+        <test-method status="PASS" signature="loadConfig()[pri:0, instance:com.testcases.loginPageTest@6579c3d9]" name="loadConfig" is-config="true" duration-ms="646" started-at="2022-01-12T13:26:55 IST" finished-at="2022-01-12T13:26:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.testcases.loginPageTest@75f2099]" name="setup" is-config="true" duration-ms="11022" started-at="2022-01-10T13:48:26 IST" finished-at="2022-01-10T13:48:37 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testcases.loginPageTest@6579c3d9]" name="setup" is-config="true" duration-ms="10664" started-at="2022-01-12T13:26:56 IST" finished-at="2022-01-12T13:27:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="Login_TC_001()[pri:1, instance:com.testcases.loginPageTest@75f2099]" name="Login_TC_001" duration-ms="17692" started-at="2022-01-10T13:48:37 IST" description="verifying login with page title verification" finished-at="2022-01-10T13:48:55 IST">
+        <test-method status="FAIL" signature="Login_TC_001()[pri:1, instance:com.testcases.loginPageTest@6579c3d9]" name="Login_TC_001" duration-ms="17784" started-at="2022-01-12T13:27:06 IST" description="verifying login with page title verification" finished-at="2022-01-12T13:27:24 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [TUDU1] but found [TUDU]]]>
@@ -70,29 +70,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_TC_001 -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testcases.loginPageTest@75f2099]" name="teardown" is-config="true" duration-ms="4264" started-at="2022-01-10T13:48:56 IST" finished-at="2022-01-10T13:49:00 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testcases.loginPageTest@6579c3d9]" name="teardown" is-config="true" duration-ms="4284" started-at="2022-01-12T13:27:25 IST" finished-at="2022-01-12T13:27:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.loginPageTest@75f2099]" name="tearDown" is-config="true" duration-ms="753" started-at="2022-01-10T13:49:00 IST" finished-at="2022-01-10T13:49:01 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.loginPageTest@6579c3d9]" name="tearDown" is-config="true" duration-ms="687" started-at="2022-01-12T13:27:29 IST" finished-at="2022-01-12T13:27:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.loginPageTest@75f2099]" name="tearDown" is-config="true" duration-ms="82" started-at="2022-01-10T13:51:07 IST" finished-at="2022-01-10T13:51:07 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.loginPageTest@6579c3d9]" name="tearDown" is-config="true" duration-ms="76" started-at="2022-01-12T13:29:33 IST" finished-at="2022-01-12T13:29:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testcases.loginPageTest -->
       <class name="com.testcases.createProjectPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.testcases.createProjectPageTest@2e52fb3e]" name="setup" is-config="true" duration-ms="23001" started-at="2022-01-10T13:49:16 IST" finished-at="2022-01-10T13:49:39 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testcases.createProjectPageTest@68e62ca4]" name="setup" is-config="true" duration-ms="20415" started-at="2022-01-12T13:27:47 IST" finished-at="2022-01-12T13:28:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="NewProject(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.testcases.createProjectPageTest@2e52fb3e]" name="NewProject" duration-ms="12484" started-at="2022-01-10T13:49:39 IST" description="Verifing new project creation" data-provider="createproject" finished-at="2022-01-10T13:49:51 IST">
+        <test-method status="FAIL" signature="NewProject(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.testcases.createProjectPageTest@68e62ca4]" name="NewProject" duration-ms="12473" started-at="2022-01-12T13:28:07 IST" description="Verifing new project creation" data-provider="createproject" finished-at="2022-01-12T13:28:20 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Vikesh latest project]]>
+                <![CDATA[A8 project]]>
               </value>
             </param>
             <param index="1">
@@ -119,8 +119,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-8VB0F45', ip: '192.168.43.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Vikesh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62674}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c561bcf4ee933344ac39e7ef2b9e9623
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Vikesh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52899}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 19031582fee197775a5dd8936d187c16
 *** Element info: {Using=xpath, value=//div[@class='multiselect-dropdown']/div/span}]]>
             </message>
             <full-stacktrace>
@@ -130,8 +130,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-8VB0F45', ip: '192.168.43.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Vikesh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:62674}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c561bcf4ee933344ac39e7ef2b9e9623
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Vikesh\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52899}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 19031582fee197775a5dd8936d187c16
 *** Element info: {Using=xpath, value=//div[@class='multiselect-dropdown']/div/span}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -186,37 +186,37 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NewProject -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testcases.createProjectPageTest@2e52fb3e]" name="teardown" is-config="true" duration-ms="4216" started-at="2022-01-10T13:49:51 IST" finished-at="2022-01-10T13:49:56 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testcases.createProjectPageTest@68e62ca4]" name="teardown" is-config="true" duration-ms="4198" started-at="2022-01-12T13:28:20 IST" finished-at="2022-01-12T13:28:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.createProjectPageTest@2e52fb3e]" name="tearDown" is-config="true" duration-ms="161" started-at="2022-01-10T13:49:56 IST" finished-at="2022-01-10T13:49:56 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.createProjectPageTest@68e62ca4]" name="tearDown" is-config="true" duration-ms="123" started-at="2022-01-12T13:28:24 IST" finished-at="2022-01-12T13:28:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testcases.createProjectPageTest -->
       <class name="com.testcases.homePageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.testcases.homePageTest@16fe9c29]" name="setup" is-config="true" duration-ms="6422" started-at="2022-01-10T13:49:56 IST" finished-at="2022-01-10T13:50:02 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testcases.homePageTest@5328a9c1]" name="setup" is-config="true" duration-ms="6424" started-at="2022-01-12T13:28:24 IST" finished-at="2022-01-12T13:28:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="homeUserProfileLogout()[pri:2, instance:com.testcases.homePageTest@16fe9c29]" name="homeUserProfileLogout" duration-ms="14218" started-at="2022-01-10T13:50:02 IST" description="Verifing Logout functionality" finished-at="2022-01-10T13:50:16 IST">
+        <test-method status="PASS" signature="homeUserProfileLogout()[pri:2, instance:com.testcases.homePageTest@5328a9c1]" name="homeUserProfileLogout" duration-ms="14415" started-at="2022-01-12T13:28:31 IST" description="Verifing Logout functionality" finished-at="2022-01-12T13:28:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homeUserProfileLogout -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testcases.homePageTest@16fe9c29]" name="teardown" is-config="true" duration-ms="247" started-at="2022-01-10T13:50:16 IST" finished-at="2022-01-10T13:50:17 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testcases.homePageTest@5328a9c1]" name="teardown" is-config="true" duration-ms="199" started-at="2022-01-12T13:28:45 IST" finished-at="2022-01-12T13:28:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.homePageTest@16fe9c29]" name="tearDown" is-config="true" duration-ms="136" started-at="2022-01-10T13:50:17 IST" finished-at="2022-01-10T13:50:17 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.homePageTest@5328a9c1]" name="tearDown" is-config="true" duration-ms="113" started-at="2022-01-12T13:28:45 IST" finished-at="2022-01-12T13:28:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.testcases.homePageTest@16fe9c29]" name="setup" is-config="true" duration-ms="7109" started-at="2022-01-10T13:50:17 IST" finished-at="2022-01-10T13:50:24 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testcases.homePageTest@5328a9c1]" name="setup" is-config="true" duration-ms="6144" started-at="2022-01-12T13:28:45 IST" finished-at="2022-01-12T13:28:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="homeSearchProject(java.lang.String)[pri:3, instance:com.testcases.homePageTest@16fe9c29]" name="homeSearchProject" duration-ms="11932" started-at="2022-01-10T13:50:24 IST" description="Verifing project search feature" data-provider="searchProject" finished-at="2022-01-10T13:50:36 IST">
+        <test-method status="PASS" signature="homeSearchProject(java.lang.String)[pri:3, instance:com.testcases.homePageTest@5328a9c1]" name="homeSearchProject" duration-ms="11757" started-at="2022-01-12T13:28:52 IST" description="Verifing project search feature" data-provider="searchProject" finished-at="2022-01-12T13:29:03 IST">
           <params>
             <param index="0">
               <value>
@@ -227,21 +227,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homeSearchProject -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testcases.homePageTest@16fe9c29]" name="teardown" is-config="true" duration-ms="231" started-at="2022-01-10T13:50:36 IST" finished-at="2022-01-10T13:50:36 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testcases.homePageTest@5328a9c1]" name="teardown" is-config="true" duration-ms="4186" started-at="2022-01-12T13:29:03 IST" finished-at="2022-01-12T13:29:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.homePageTest@16fe9c29]" name="tearDown" is-config="true" duration-ms="143" started-at="2022-01-10T13:50:36 IST" finished-at="2022-01-10T13:50:36 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.homePageTest@5328a9c1]" name="tearDown" is-config="true" duration-ms="199" started-at="2022-01-12T13:29:08 IST" finished-at="2022-01-12T13:29:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testcases.homePageTest -->
       <class name="com.testcases.confirmPasswordPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.testcases.confirmPasswordPageTest@3e9803c2]" name="setup" is-config="true" duration-ms="12529" started-at="2022-01-10T13:50:36 IST" finished-at="2022-01-10T13:50:49 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testcases.confirmPasswordPageTest@5b78fdb1]" name="setup" is-config="true" duration-ms="6712" started-at="2022-01-12T13:29:08 IST" finished-at="2022-01-12T13:29:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="changePassword(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.testcases.confirmPasswordPageTest@3e9803c2]" name="changePassword" duration-ms="17906" started-at="2022-01-10T13:50:49 IST" description="Verifing change password functionality" data-provider="Password" finished-at="2022-01-10T13:51:07 IST">
+        <test-method status="PASS" signature="changePassword(java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:com.testcases.confirmPasswordPageTest@5b78fdb1]" name="changePassword" duration-ms="17679" started-at="2022-01-12T13:29:15 IST" description="Verifing change password functionality" data-provider="Password" finished-at="2022-01-12T13:29:32 IST">
           <params>
             <param index="0">
               <value>
@@ -262,21 +262,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changePassword -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testcases.confirmPasswordPageTest@3e9803c2]" name="teardown" is-config="true" duration-ms="263" started-at="2022-01-10T13:51:07 IST" finished-at="2022-01-10T13:51:07 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testcases.confirmPasswordPageTest@5b78fdb1]" name="teardown" is-config="true" duration-ms="225" started-at="2022-01-12T13:29:32 IST" finished-at="2022-01-12T13:29:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.confirmPasswordPageTest@3e9803c2]" name="tearDown" is-config="true" duration-ms="114" started-at="2022-01-10T13:51:07 IST" finished-at="2022-01-10T13:51:07 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.confirmPasswordPageTest@5b78fdb1]" name="tearDown" is-config="true" duration-ms="96" started-at="2022-01-12T13:29:32 IST" finished-at="2022-01-12T13:29:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testcases.confirmPasswordPageTest -->
       <class name="com.testcases.signUpTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.testcases.signUpTest@715fb77]" name="setup" is-config="true" duration-ms="7892" started-at="2022-01-10T13:49:01 IST" finished-at="2022-01-10T13:49:09 IST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testcases.signUpTest@682c1e93]" name="setup" is-config="true" duration-ms="6202" started-at="2022-01-12T13:27:30 IST" finished-at="2022-01-12T13:27:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="signUpDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testcases.signUpTest@715fb77]" name="signUpDetails" duration-ms="6372" started-at="2022-01-10T13:49:09 IST" description="Verifing sign up page details" data-provider="signup" finished-at="2022-01-10T13:49:15 IST">
+        <test-method status="PASS" signature="signUpDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testcases.signUpTest@682c1e93]" name="signUpDetails" duration-ms="6391" started-at="2022-01-12T13:27:36 IST" description="Verifing sign up page details" data-provider="signup" finished-at="2022-01-12T13:27:42 IST">
           <params>
             <param index="0">
               <value>
@@ -295,7 +295,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="3">
               <value>
-                <![CDATA[claimfour]]>
+                <![CDATA[ontwo]]>
               </value>
             </param>
             <param index="4">
@@ -322,11 +322,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpDetails -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testcases.signUpTest@715fb77]" name="teardown" is-config="true" duration-ms="228" started-at="2022-01-10T13:49:15 IST" finished-at="2022-01-10T13:49:15 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testcases.signUpTest@682c1e93]" name="teardown" is-config="true" duration-ms="4238" started-at="2022-01-12T13:27:42 IST" finished-at="2022-01-12T13:27:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.signUpTest@715fb77]" name="tearDown" is-config="true" duration-ms="162" started-at="2022-01-10T13:49:15 IST" finished-at="2022-01-10T13:49:15 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testcases.signUpTest@682c1e93]" name="tearDown" is-config="true" duration-ms="147" started-at="2022-01-12T13:27:46 IST" finished-at="2022-01-12T13:27:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

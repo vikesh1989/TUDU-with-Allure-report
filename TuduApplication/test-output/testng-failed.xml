@@ -12,15 +12,6 @@
       </run>
     </groups>
     <classes>
-      <class name="com.testcases.loginPageTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="teardown"/>
-          <include name="loadConfig"/>
-          <include name="setup"/>
-          <include name="Login_TC_001"/>
-        </methods>
-      </class> <!-- com.testcases.loginPageTest -->
       <class name="com.testcases.createProjectPageTest">
         <methods>
           <include name="tearDown"/>
@@ -30,6 +21,15 @@
           <include name="teardown"/>
         </methods>
       </class> <!-- com.testcases.createProjectPageTest -->
+      <class name="com.testcases.loginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="teardown"/>
+          <include name="loadConfig"/>
+          <include name="setup"/>
+          <include name="Login_TC_001"/>
+        </methods>
+      </class> <!-- com.testcases.loginPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

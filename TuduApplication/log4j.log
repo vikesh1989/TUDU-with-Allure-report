@@ -11269,3 +11269,160 @@
 2022-01-10 13:51:07 INFO  Log:23 - Closing Browser
 2022-01-10 13:51:07 INFO  Log:23 - Extent Report flush
 2022-01-10 13:51:07 INFO  Log:23 - After suite Exiting
+2022-01-12 12:59:46 INFO  Log:23 - Browser selected
+2022-01-12 12:59:47 INFO  Log:23 - before suite Executing
+2022-01-12 12:59:54 INFO  Log:23 - chrome browser open
+2022-01-12 13:00:01 INFO  Log:23 - selected navigated to application URL
+2022-01-12 13:00:01 INFO  Log:23 - maximizingchromewindow
+2022-01-12 13:00:01 INFO  Log:11 - =====================================loginPageTest TEST START=========================================
+2022-01-12 13:00:01 INFO  Log:23 - Ready to enter username and password
+2022-01-12 13:00:01 INFO  Log:23 - Username Entered
+2022-01-12 13:00:01 INFO  Log:23 - Password Entered
+2022-01-12 13:00:02 INFO  Log:23 - Cliked on submit button
+2022-01-12 13:00:19 INFO  Log:23 - Get Title of login page
+2022-01-12 13:00:19 INFO  Log:23 - Verifing Title 
+2022-01-12 13:00:19 INFO  Log:16 - =====================================loginPageTest TEST END=========================================
+2022-01-12 13:00:23 INFO  Log:23 - Closing Browser
+2022-01-12 13:00:24 INFO  Log:23 - Extent Report flush
+2022-01-12 13:00:24 INFO  Log:23 - After suite Exiting
+2022-01-12 13:00:24 INFO  Log:23 - before suite Executing
+2022-01-12 13:00:26 INFO  Log:23 - chrome browser open
+2022-01-12 13:00:30 INFO  Log:23 - selected navigated to application URL
+2022-01-12 13:00:30 INFO  Log:23 - maximizingchromewindow
+2022-01-12 13:00:30 INFO  Log:11 - =====================================homePageTest TEST START=========================================
+2022-01-12 13:00:30 INFO  Log:23 - Username Entered
+2022-01-12 13:00:30 INFO  Log:23 - Password Entered
+2022-01-12 13:00:31 INFO  Log:23 - Cliked on submit button
+2022-01-12 13:00:39 INFO  Log:23 - Waring close button is visible
+2022-01-12 13:00:39 INFO  Log:23 - Waring pop up message of trial get closed
+2022-01-12 13:00:39 INFO  Log:23 - Clicked on User profile Icon
+2022-01-12 13:00:42 INFO  Log:23 - Clicked on User profile Icon > Logout button
+2022-01-12 13:00:44 INFO  Log:16 - =====================================homePageTest TEST END=========================================
+2022-01-12 13:00:48 INFO  Log:23 - Closing Browser
+2022-01-12 13:00:49 INFO  Log:23 - Extent Report flush
+2022-01-12 13:00:49 INFO  Log:23 - After suite Exiting
+2022-01-12 13:00:49 INFO  Log:23 - before suite Executing
+2022-01-12 13:00:51 INFO  Log:23 - chrome browser open
+2022-01-12 13:00:55 INFO  Log:23 - selected navigated to application URL
+2022-01-12 13:00:55 INFO  Log:23 - maximizingchromewindow
+2022-01-12 13:00:55 INFO  Log:11 - =====================================homePageTest TEST START=========================================
+2022-01-12 13:00:55 INFO  Log:23 - Username Entered
+2022-01-12 13:00:55 INFO  Log:23 - Password Entered
+2022-01-12 13:00:55 INFO  Log:23 - Cliked on submit button
+2022-01-12 13:01:04 INFO  Log:23 - Waring close button is visible
+2022-01-12 13:01:04 INFO  Log:23 - entered value on project search bar
+2022-01-12 13:01:07 INFO  Log:16 - =====================================homePageTest TEST END=========================================
+2022-01-12 13:01:11 INFO  Log:23 - Closing Browser
+2022-01-12 13:01:11 INFO  Log:23 - Extent Report flush
+2022-01-12 13:01:11 INFO  Log:23 - After suite Exiting
+2022-01-12 13:01:11 INFO  Log:23 - Closing Browser
+2022-01-12 13:01:11 INFO  Log:23 - Extent Report flush
+2022-01-12 13:01:11 INFO  Log:23 - After suite Exiting
+2022-01-12 13:26:55 INFO  Log:23 - Browser selected
+2022-01-12 13:26:56 INFO  Log:23 - before suite Executing
+2022-01-12 13:27:01 INFO  Log:23 - chrome browser open
+2022-01-12 13:27:06 INFO  Log:23 - selected navigated to application URL
+2022-01-12 13:27:06 INFO  Log:23 - maximizingchromewindow
+2022-01-12 13:27:06 INFO  Log:11 - =====================================loginPageTest TEST START=========================================
+2022-01-12 13:27:06 INFO  Log:23 - Ready to enter username and password
+2022-01-12 13:27:07 INFO  Log:23 - Username Entered
+2022-01-12 13:27:07 INFO  Log:23 - Password Entered
+2022-01-12 13:27:07 INFO  Log:23 - Cliked on submit button
+2022-01-12 13:27:24 INFO  Log:23 - Get Title of login page
+2022-01-12 13:27:24 INFO  Log:23 - Verifing Title 
+2022-01-12 13:27:25 INFO  Log:16 - =====================================loginPageTest TEST END=========================================
+2022-01-12 13:27:29 INFO  Log:23 - Closing Browser
+2022-01-12 13:27:29 INFO  Log:23 - Extent Report flush
+2022-01-12 13:27:29 INFO  Log:23 - After suite Exiting
+2022-01-12 13:27:30 INFO  Log:23 - before suite Executing
+2022-01-12 13:27:32 INFO  Log:23 - chrome browser open
+2022-01-12 13:27:35 INFO  Log:23 - selected navigated to application URL
+2022-01-12 13:27:36 INFO  Log:23 - maximizingchromewindow
+2022-01-12 13:27:36 INFO  Log:23 - Open sign up page
+2022-01-12 13:27:36 INFO  Log:11 - =====================================signUpTest TEST START=========================================
+2022-01-12 13:27:36 INFO  Log:23 - First name entered - Aimdek
+2022-01-12 13:27:36 INFO  Log:23 - Last name entered - Testing last Name
+2022-01-12 13:27:36 INFO  Log:23 - Organization name entered - Test next
+2022-01-12 13:27:37 INFO  Log:23 - Claim Url entered - ontwo
+2022-01-12 13:27:37 INFO  Log:23 - Organization Email entered - test@gmail.com
+2022-01-12 13:27:37 INFO  Log:23 - Work Email entered - test@gmail.com
+2022-01-12 13:27:37 INFO  Log:23 - Website name entered - https://www.testone.com
+2022-01-12 13:27:37 INFO  Log:23 - SignUp Password entered - Pass123#$
+2022-01-12 13:27:40 INFO  Log:23 - Clicked on Create MyAccount button
+2022-01-12 13:27:42 INFO  Log:16 - =====================================signUpTest TEST END=========================================
+2022-01-12 13:27:46 INFO  Log:23 - Closing Browser
+2022-01-12 13:27:47 INFO  Log:23 - Extent Report flush
+2022-01-12 13:27:47 INFO  Log:23 - After suite Exiting
+2022-01-12 13:27:47 INFO  Log:23 - before suite Executing
+2022-01-12 13:27:49 INFO  Log:23 - chrome browser open
+2022-01-12 13:27:53 INFO  Log:23 - selected navigated to application URL
+2022-01-12 13:27:53 INFO  Log:23 - maximizingchromewindow
+2022-01-12 13:27:53 INFO  Log:23 - Username Entered
+2022-01-12 13:27:53 INFO  Log:23 - Password Entered
+2022-01-12 13:27:53 INFO  Log:23 - Cliked on submit button
+2022-01-12 13:28:01 INFO  Log:23 - Waring close button is visible
+2022-01-12 13:28:02 INFO  Log:23 - Waring pop up message of trial get closed
+2022-01-12 13:28:07 INFO  Log:23 - Create project page open
+2022-01-12 13:28:07 INFO  Log:11 - =====================================createProjectPageTest TEST START=========================================
+2022-01-12 13:28:07 INFO  Log:23 - Entered value on project Name - A8 project
+2022-01-12 13:28:08 INFO  Log:23 - Entered value on project Description - Doing testing to create project
+2022-01-12 13:28:10 INFO  Log:23 - Click on Client details dropdown
+2022-01-12 13:28:10 INFO  Log:23 - Value selected on Client details
+2022-01-12 13:28:12 INFO  Log:23 - Click on Project Manager/Owner dropdown
+2022-01-12 13:28:12 INFO  Log:23 - Value selected on Project Manager/Owner
+2022-01-12 13:28:20 INFO  Log:16 - =====================================createProjectPageTest TEST END=========================================
+2022-01-12 13:28:24 INFO  Log:23 - Closing Browser
+2022-01-12 13:28:24 INFO  Log:23 - Extent Report flush
+2022-01-12 13:28:24 INFO  Log:23 - After suite Exiting
+2022-01-12 13:28:24 INFO  Log:23 - before suite Executing
+2022-01-12 13:28:27 INFO  Log:23 - chrome browser open
+2022-01-12 13:28:30 INFO  Log:23 - selected navigated to application URL
+2022-01-12 13:28:31 INFO  Log:23 - maximizingchromewindow
+2022-01-12 13:28:31 INFO  Log:11 - =====================================homePageTest TEST START=========================================
+2022-01-12 13:28:31 INFO  Log:23 - Username Entered
+2022-01-12 13:28:31 INFO  Log:23 - Password Entered
+2022-01-12 13:28:31 INFO  Log:23 - Cliked on submit button
+2022-01-12 13:28:39 INFO  Log:23 - Waring close button is visible
+2022-01-12 13:28:40 INFO  Log:23 - Waring pop up message of trial get closed
+2022-01-12 13:28:40 INFO  Log:23 - Clicked on User profile Icon
+2022-01-12 13:28:43 INFO  Log:23 - Clicked on User profile Icon > Logout button
+2022-01-12 13:28:45 INFO  Log:16 - =====================================homePageTest TEST END=========================================
+2022-01-12 13:28:45 INFO  Log:23 - Closing Browser
+2022-01-12 13:28:45 INFO  Log:23 - Extent Report flush
+2022-01-12 13:28:45 INFO  Log:23 - After suite Exiting
+2022-01-12 13:28:45 INFO  Log:23 - before suite Executing
+2022-01-12 13:28:48 INFO  Log:23 - chrome browser open
+2022-01-12 13:28:51 INFO  Log:23 - selected navigated to application URL
+2022-01-12 13:28:52 INFO  Log:23 - maximizingchromewindow
+2022-01-12 13:28:52 INFO  Log:11 - =====================================homePageTest TEST START=========================================
+2022-01-12 13:28:52 INFO  Log:23 - Username Entered
+2022-01-12 13:28:52 INFO  Log:23 - Password Entered
+2022-01-12 13:28:52 INFO  Log:23 - Cliked on submit button
+2022-01-12 13:29:00 INFO  Log:23 - Waring close button is visible
+2022-01-12 13:29:00 INFO  Log:23 - entered value on project search bar
+2022-01-12 13:29:03 INFO  Log:16 - =====================================homePageTest TEST END=========================================
+2022-01-12 13:29:08 INFO  Log:23 - Closing Browser
+2022-01-12 13:29:08 INFO  Log:23 - Extent Report flush
+2022-01-12 13:29:08 INFO  Log:23 - After suite Exiting
+2022-01-12 13:29:08 INFO  Log:23 - before suite Executing
+2022-01-12 13:29:10 INFO  Log:23 - chrome browser open
+2022-01-12 13:29:14 INFO  Log:23 - selected navigated to application URL
+2022-01-12 13:29:14 INFO  Log:23 - maximizingchromewindow
+2022-01-12 13:29:15 INFO  Log:11 - =====================================confirmPasswordPageTest TEST START=========================================
+2022-01-12 13:29:15 INFO  Log:23 - Username Entered
+2022-01-12 13:29:15 INFO  Log:23 - Password Entered
+2022-01-12 13:29:15 INFO  Log:23 - Cliked on submit button
+2022-01-12 13:29:23 INFO  Log:23 - Waring close button is visible
+2022-01-12 13:29:23 INFO  Log:23 - Waring pop up message of trial get closed
+2022-01-12 13:29:23 INFO  Log:23 - Clicked on User profile Icon
+2022-01-12 13:29:27 INFO  Log:23 - Clicked on User profile Icon > Change Password button
+2022-01-12 13:29:30 INFO  Log:23 - Old Password entered
+2022-01-12 13:29:30 INFO  Log:23 - New Password entered
+2022-01-12 13:29:30 INFO  Log:23 - confirm Password entered
+2022-01-12 13:29:32 INFO  Log:16 - =====================================confirmPasswordPageTest TEST END=========================================
+2022-01-12 13:29:32 INFO  Log:23 - Closing Browser
+2022-01-12 13:29:33 INFO  Log:23 - Extent Report flush
+2022-01-12 13:29:33 INFO  Log:23 - After suite Exiting
+2022-01-12 13:29:33 INFO  Log:23 - Closing Browser
+2022-01-12 13:29:33 INFO  Log:23 - Extent Report flush
+2022-01-12 13:29:33 INFO  Log:23 - After suite Exiting
