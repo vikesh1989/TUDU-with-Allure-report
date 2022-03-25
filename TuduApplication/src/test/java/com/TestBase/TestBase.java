@@ -7,6 +7,7 @@ import org.testng.annotations.AfterMethod;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.Properties;
 import org.apache.log4j.xml.DOMConfigurator;
 import org.apache.poi.ss.usermodel.DataFormatter;
@@ -14,6 +15,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterSuite;
@@ -46,7 +48,7 @@ public class TestBase {
     
   @BeforeSuite
 	
-    public void loadConfig() {
+    public void loadConfig() throws IOException {
 	  	  
 	  ExtentManager.setExtent();
 		
@@ -55,7 +57,7 @@ public class TestBase {
 	  Log.info("Browser selected");
 	  
 	  
-		try {
+		/*try {
 			prop = new Properties();
 			FileInputStream ip = new FileInputStream(
 					System.getProperty("user.dir") + "\\Configuration\\config.properties");
@@ -66,7 +68,13 @@ public class TestBase {
 			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
-		}
+		}*/
+	  
+	  prop = new Properties();
+		
+		InputStream ip= ClassLoader.getSystemResourceAsStream("config.Properties");
+		prop.load(ip);
+		ip.close();
 	}
     
 	
@@ -74,12 +82,18 @@ public class TestBase {
 		   
 		  Log.info("before suite Executing"); 
 		
-        WebDriverManager.chromedriver().setup();
+       // WebDriverManager.chromedriver().setup();
        
        	String Launch=prop.getProperty("browser");
 		
         if(Launch.equalsIgnoreCase("chrome")){
-		  driver = new ChromeDriver();
+        	WebDriverManager.chromedriver().setup();
+			
+			ChromeOptions chromeOptions = new ChromeOptions();
+		 // chromeOptions.setBinary("/usr/bin/google-chrome");  //Azure working
+			 
+			//chromeOptions.addArguments("--headless"); //Azure working
+			 driver = new ChromeDriver(chromeOptions);
 		 
 		 Log.info(Launch +" browser open");
 		 
